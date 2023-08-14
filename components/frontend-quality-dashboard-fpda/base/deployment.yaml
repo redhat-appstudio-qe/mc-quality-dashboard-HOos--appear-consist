@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: frontend-quality-dashboard-fpda
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-dcwe-tenant/mc-quality-dashboard/frontend-quality-dashboard-fpda@sha256:2158e6aee50b623d0413724055e250d43f08886231282b58d78daaa3a9efa04c
         imagePullPolicy: Always
         name: container-image
         ports:
